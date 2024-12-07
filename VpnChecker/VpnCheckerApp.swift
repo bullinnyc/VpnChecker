@@ -9,9 +9,16 @@ import SwiftUI
 
 @main
 struct VpnCheckerApp: App {
+    // MARK: - Property Wrappers
+    
+    @StateObject private var vpnChecker = VpnChecker()
+    
+    // MARK: - Body
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(vpnChecker)
         }
     }
 }

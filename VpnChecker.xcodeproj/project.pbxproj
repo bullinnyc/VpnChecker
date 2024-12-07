@@ -6,7 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		DB124E5E2D047F2D001760F5 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = DB124E5D2D047F2D001760F5 /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		DB124E5D2D047F2D001760F5 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		DBB80A6A2CC5DF7100100BA1 /* VpnChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VpnChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -32,6 +37,7 @@
 		DBB80A612CC5DF7100100BA1 = {
 			isa = PBXGroup;
 			children = (
+				DB124E5D2D047F2D001760F5 /* .gitignore */,
 				DBB80A6C2CC5DF7100100BA1 /* VpnChecker */,
 				DBB80A6B2CC5DF7100100BA1 /* Products */,
 			);
@@ -109,6 +115,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB124E5E2D047F2D001760F5 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
