@@ -8,10 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		DB124E5E2D047F2D001760F5 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = DB124E5D2D047F2D001760F5 /* .gitignore */; };
+		DB4E23912D3D36D3009BF573 /* demo.png in Resources */ = {isa = PBXBuildFile; fileRef = DB4E23902D3D36D3009BF573 /* demo.png */; };
+		DB90EC672D3CFF1D00BC43A9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DB90EC662D3CFF1D00BC43A9 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DB124E5D2D047F2D001760F5 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		DB4E23902D3D36D3009BF573 /* demo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo.png; sourceTree = "<group>"; };
+		DB90EC662D3CFF1D00BC43A9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DBB80A6A2CC5DF7100100BA1 /* VpnChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VpnChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -37,6 +41,8 @@
 		DBB80A612CC5DF7100100BA1 = {
 			isa = PBXGroup;
 			children = (
+				DB4E23902D3D36D3009BF573 /* demo.png */,
+				DB90EC662D3CFF1D00BC43A9 /* README.md */,
 				DB124E5D2D047F2D001760F5 /* .gitignore */,
 				DBB80A6C2CC5DF7100100BA1 /* VpnChecker */,
 				DBB80A6B2CC5DF7100100BA1 /* Products */,
@@ -115,6 +121,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB90EC672D3CFF1D00BC43A9 /* README.md in Resources */,
+				DB4E23912D3D36D3009BF573 /* demo.png in Resources */,
 				DB124E5E2D047F2D001760F5 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
