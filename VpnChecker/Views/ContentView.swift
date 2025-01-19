@@ -26,7 +26,7 @@ struct ContentView: View {
         }
         .snackBar(message: $snackMessage)
         .onReceive(vpnChecker.$isActive) { newValue in
-            snackMessage = newValue ? "VPN Active" : "VPN Inactive"
+            snackMessage = newValue ? "VPN is active" : "VPN is inactive"
         }
     }
 }
